@@ -13,5 +13,4 @@ const RevokeTokenSchema = new Schema({
     default: Date.now,
   },
 });
-console.log('test');
 module.exports = mongoose.model('RevokeToken', RevokeTokenSchema);
